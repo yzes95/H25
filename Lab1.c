@@ -4,5 +4,5 @@
 #define int char
 void main(void){
 	int x=260;
-	printf("Hello World!\n");
+	
 	printf("%d\n",x);}
