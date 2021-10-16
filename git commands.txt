@@ -1,0 +1,26 @@
+git clone 
+
+git config --global user.name ""
+git config --global user.email ""
+git add .   OR   git add filename.c
+git commit -m "your comment"
+git push
+git push -u origin master
+
+git pull origin master     // to download the lastest update
+
+…or create a new repository on the command line
+echo "# tests" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/15101990/tests.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/15101990/tests.git
+git branch -M main
+git push -u origin main
